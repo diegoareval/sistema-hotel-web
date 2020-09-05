@@ -14,7 +14,6 @@
 
 
 
-
 <link href='lib/fullcalendar.min.css' rel='stylesheet' />
 <link href='lib/fullcalendar.print.min.css' rel='stylesheet' media='print' />
 <link href='lib/scheduler.min.css' rel='stylesheet' />
@@ -214,7 +213,7 @@
         $("#ModalEvent").modal();
         }
         else {
-          alert("No se pueden crear reserva en el pasado!");
+          swal("Error!", "No se pueden crear reservas a dias pasados!", "error");
         }
         
     },

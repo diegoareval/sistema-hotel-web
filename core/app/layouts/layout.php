@@ -535,6 +535,7 @@
         <!-- ============================================
         ============== Custom JavaScripts ===============
         ============================================= -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="assets/js/main.js"></script>
         <!--/ custom javascripts -->
 
