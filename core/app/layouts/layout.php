@@ -136,7 +136,8 @@
                         <li class="dropdown nav-profile">
 
                             <a href class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="assets/images/profile-photo.jpg" alt="" class="img-circle size-30x30">
+                                <img src="<?php if(isset($_SESSION["user_id"]) ){ echo UserData::getById($_SESSION["user_id"])->image;}?>" alt="" class="img-circle size-30x30" />
+                                
                                 <span><?php if(isset($_SESSION["user_id"]) ){ echo UserData::getById($_SESSION["user_id"])->name; 
 
                   }?><i class="fa fa-angle-down"></i></span>
