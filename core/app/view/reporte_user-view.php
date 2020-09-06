@@ -124,7 +124,7 @@ table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, 
             <div class="tab-content">
               <div class="tab-pane active" id="tab_1">
                 <?php $reportediarios = ProcesoData::getReporteDiarioUser($hoy,$u->id);
-                if(count($reportediarios)>0){
+                if(isset($reportediarios)){
                   // si hay usuarios
                   ?>
                   <table id="example1" class="table table-bordered table-hover">

@@ -42,7 +42,7 @@ $hora = date("H:i:s");
 <?php 
 if(isset($_GET['id'])){
 $habitacion = ProcesoData::getById($_GET['id']);
-if(count($habitacion)>0){ ?>
+if(isset($habitacion)){ ?>
 <div class="row"> 
  
 

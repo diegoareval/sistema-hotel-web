@@ -1,6 +1,6 @@
 <?php
 
-if(count($_POST)>0){
+if(isset($_POST)){
 
     $id_ope=$_POST['id_operacion'];
 	$cajas = CajaData::getAllAbierto(); 

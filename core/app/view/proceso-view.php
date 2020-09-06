@@ -142,18 +142,7 @@ $(function() {
 
                 
                   <td colspan="2">
-                     
-                     
-
-
-
-
-
-
-
-
-
-                    <div class="form-group">
+                          <div class="form-group">
                               
                               <div class="input-group">
                                 <div class="input-group-addon">

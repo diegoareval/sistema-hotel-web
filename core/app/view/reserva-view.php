@@ -413,8 +413,7 @@
             }
           },
           error:function(e){
-            console.log(e)
-            alert("Hay un error");
+            swal("Error!", "No se pudo agregar el registro, intente nuevamente", "error");
           }
         });
 

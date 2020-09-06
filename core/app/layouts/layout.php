@@ -1,9 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-
+<html class="no-js" lang=""> 
     
 <head>
 
@@ -56,18 +52,6 @@
 
 
     <body  id="minovate" class="<?php if(isset($_SESSION["user_id"]) || isset($_SESSION["client_id"])):?> appWrapper sidebar-sm-forced <?php else:?>appWrapper<?php endif; ?>"  >
-
-
-
-
-
-
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-
 
 
 
@@ -401,10 +385,7 @@
     wow.init();
 </script>
 
-<!--
-<img src="assets/images/bg//blurred-bg-3.jpg" class="login-img wow fadeIn" alt="">
 
- <!-- col -->
                         <div class="page page-core page-login col-md-6">
 
                             <!-- tile -->

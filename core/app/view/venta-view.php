@@ -282,13 +282,13 @@
       //Inicia validacion
       if (isNaN(cantidad)) 
       {
-      alert('Esto no es un numero');
+      swal("Error!", "Debes agregar numero!", "error");
       document.getElementById('cantidad_'+id).focus();
       return false;
       }
       if (isNaN(precio_venta))
       {
-      alert('Esto no es un numero');
+      swal("Error!", "Debes agregar numero!", "error");
       document.getElementById('precio_venta_'+id).focus();
       return false;
       }

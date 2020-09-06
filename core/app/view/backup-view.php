@@ -4,7 +4,7 @@
 $dbhost = 'localhost';
 $dbuser = 'root';
 $dbpass = '';
-$dbname = 'hotel_web_3.0';
+$dbname = 'db';
 $tables = '*';
   
 //Call the core function
